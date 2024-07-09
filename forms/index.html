@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Creation of forms</h1>
+    <br />
+    <div>
+      <form class="form">
+        <div class="headingDiv">
+          <h2 class="rentalHeading">Rental application</h2>
+        </div>
+        <fieldset>
+          <legend>Personal Details<br /></legend>
+          <div>
+            <label class="labels">Applicant Details:-</label><br />
+            <label for="label6" class="labels">First name:-</label>
+            <input id="label6" type="text" />
+            <label for="label7">Second Name:-</label>
+            <input id="label7" type="text" />
+            <div>
+              <label for="label8" class="labels">Email Address:-</label>
+              <input id="label8" />
+            </div>
+            <div>
+              <label for="label9" class="labels">Mobile Number:-</label>
+              <input list="countryCodes" id="label9" />
+              <datalist id="countryCodes">
+                <option></option>
+                <option>93 Afganistan</option>
+                <option>355 Albania</option>
+                <option>213 Algeria</option>
+                <option>1684American Samoa</option>
+                <option>376 Angorra</option>
+                <option>1264 Anguilla</option>
+                <option>6721 Antarctica (Australian bases)</option>
+              </datalist>
+              <div>
+                <label for="label10" class="labels">Gender:-</label>
+                <select id="label10">
+                  <option></option>
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Others</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Address</legend>
+          <div class="firstDiv">
+            <label for="label2" class="labels"
+              >Aparment Address:-<sup class="star">*</sup></label
+            >
+            <textarea id="label2"></textarea>
+          </div>
+          <div>
+            <label for="label3" class="labels">Address line2:-</label>
+            <input id="label3" />
+          </div>
+          <div>
+            <div>
+              <label for="label4" class="labels"
+                >City:-<sup class="star">*</sup></label
+              >
+              <input id="label4" />
+            </div>
+
+            <label for="label5" class="labels"
+              >State:- <sup class="star">*</sup></label
+            >
+            <input list="stateList" id="label5" />
+            <datalist id="stateList">
+              <option>Select State</option>
+              <option>Andhra Pradesh</option>
+              <option>Arunachal Pradesh</option>
+              <option>Assam</option>
+              <option>Bihar</option>
+              <option>Chhattisgarh</option>
+              <option>Goa</option>
+              <option>Gujarat</option>
+              <option>Haryana</option>
+            </datalist>
+          </div>
+          <div>
+            <label for="label11" class="labels"
+              >Country:- <sup class="star">*</sup></label>
+            <input list="countryList" id="label11" />
+            <select>
+               <datalist id="countryList">
+                <optgroup label="Contry Names">
+                  <option>Select Country</option>
+                  <option>Afganistan</option>
+                  <option>Albania</option>
+                  <option>Algeria</option>
+                  <option>American Samoa</option>
+                  <option>Angora</option>
+                  <option>Anguilla</option>
+                  <option>Antarctica(American bases)</option>
+                  <option>Bangladesh</option>
+                  <option>Canada</option>
+                </optgroup>
+              </datalist>
+            </select>
+          
+          </div>
+        </fieldset>
+        <br />
+
+        <button type="submit">submit</button>
+        <button type="clear">clear</button>
+        <button type="button">calculate</button>
+      </form>
+    </div>
+  </body>
+</html>

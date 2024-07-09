@@ -1,0 +1,30 @@
+.addressForm{
+    background-color: deepskyblue;
+    display: inline-block;
+    padding: 20px;
+}
+
+.rentalHeading{
+    display: inline-block;
+    padding: 20px;
+}
+.star{
+    color: red;
+}
+
+.firstDiv{
+    display: inline-block;
+}
+.form{
+    background-color: deepskyblue;
+    display: inline-block;
+    padding: 20px;
+}
+.labels{
+    width: 150px;
+    display: inline-block;
+    margin: 10px;
+}
+.headingDiv{
+    padding-left: 200px;
+}
